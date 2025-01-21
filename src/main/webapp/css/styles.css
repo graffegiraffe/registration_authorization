@@ -1,0 +1,69 @@
+#login-body-div {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6f2;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#login-form {
+    background-color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    border-radius: 15px;
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+#button-login {
+    margin-top: 15px;
+    background-color: #ff3399;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+#button-login:hover {
+    background-color: #ff0077;
+}
+
+.header-buttons{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.header-buttons form {
+    display: inline;
+}
+
+#about-me-id{
+    margin-top: 150px;
+}
+
+#profile-photo{
+    max-width: 70%;
+    border-radius: 50%;
+}
+
+#about-me-text-id{
+    display: flex;
+    align-items: center;
+}
